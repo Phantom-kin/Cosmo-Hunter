@@ -78,7 +78,7 @@ smd({
     });
 
     let menuTitle = Math.random() < 0.5 ? "MENU" : "COMMANDS";
-    let menuText = `┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃ *QUEEN-ALYA_${menuTitle}_LIST* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n\t\`Reply with the number to select a category\`\n\n`;
+    let menuText = `┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃ *Cosmo-Hunter_${menuTitle}_LIST* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n\t\`Reply with the number to select a category\`\n\n`;
     
     let categoryIndex = 1;
     let subIndex = 0;
@@ -163,7 +163,7 @@ smd({ 'on': 'text' }, async (message, reply, { mek, body, args, botNumber, isCre
         let categoryMenu = false;
         for (const category in commandsList) {
           if (categoryName.includes(category.toLowerCase())) {
-            categoryMenu = `┏━━━━━━━━━━━━━━━━━━━━━━━\n┃ *QUEEN-ALYA_${category.toUpperCase()}_COMMANDS* \n┗━━━━━━━━━━━━━━━━━━━━━━━\n\n`;
+            categoryMenu = `┏━━━━━━━━━━━━━━━━━━━━━━━\n┃ *Cosmo-Hunter_${category.toUpperCase()}_COMMANDS* \n┗━━━━━━━━━━━━━━━━━━━━━━━\n\n`;
             commandsList[category].forEach(cmd => {
               categoryMenu += `*🍁 Command:* \`\`\`${cmd.command}\`\`\`\n*🧩 Info:* \`\`\`${cmd.info}\`\`\`\n*〽️ Help:* \`\`\`${cmd.help}\`\`\`\n\n`;
             });
