@@ -48,10 +48,10 @@ module.exports = {
   HANDLERS: process.env.PREFIX || "+",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`Phantom-Error™`",
-  author: process.env.PACK_AUTHER || "Phantom-Error",
-  packname: process.env.PACK_NAME || "P H A N T O M",
-  botname: process.env.BOT_NAME || "Phantom-Error",
+  caption: process.env.CAPTION || "`𝕻𝖍𝖆𝖓𝖙𝖔𝖒™`",
+  author: process.env.PACK_AUTHER || "Captain-Phantom",
+  packname: process.env.PACK_NAME || "𝕻 𝖍 𝖆 𝖓 𝖙 𝖔 𝖒",
+  botname: process.env.BOT_NAME || "Cosmo-Hunter",
   ownername: process.env.OWNER_NAME || "~𝕻𝖍𝖆𝖓𝖙𝖔𝖒",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
@@ -64,7 +64,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: (process.env.THEME || "P H A N T O M").toUpperCase(),
+  LANG: (process.env.THEME || "𝕻 𝖍 𝖆 𝖓 𝖙 𝖔 𝖒").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = true;
