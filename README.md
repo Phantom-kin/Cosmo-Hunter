@@ -5,7 +5,7 @@
   
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THANKS FOR CHOOSING; Cosmo-Hunter ;MULTI+DEVICE+WHATSAPP+BOT; Arised By +PHANTOM +INSPIRED BY; STAR-KING0" alt="Typing SVG" /></a>
   </p>
-    <img alt="Cosmo-Hunter" width="550" height="400" src="https://files.catbox.moe/dmmkzd.png">
+    <img alt="Cosmo-Hunter" width="550" height="400" src="https://files.catbox.moe/8nylz7.jpg">
 <p align="center">
 <p align="center">
 <a href="https://github.com/Phantom-kin/Cosmo-Hunter"><img title="Author" src="https://img.shields.io/badge/Cosmo-Hunter-blue?style=for-the-badge&logo=github"></a>
