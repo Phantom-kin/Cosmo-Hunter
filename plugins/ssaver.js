@@ -137,7 +137,7 @@ smd(
 );
 smd(
   {
-    cmdname: "share",
+    cmdname: "donate",
     desc: "Send donation details",
     type: "misc",
     react: "😇",
@@ -152,7 +152,7 @@ smd(
         m
       );
     } catch (e) {
-      m.error(`${e}\n\nCommand: share`, e, false);
+      m.error(`${e}\n\nCommand: donate`, e, false);
     }
   }
 );
