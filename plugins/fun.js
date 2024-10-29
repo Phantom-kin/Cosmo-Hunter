@@ -125,7 +125,7 @@ smd(
       // Extract the query from the message
       const query = m.text.split(' ').slice(1).join(' ');
       if (!query) {
-        return await m.send("Please provide a Bible verse reference, e.g., `.bible3 psalm 37:4`.");
+        return await m.send("Please provide a Bible verse reference, e.g., `.bible3 john 3:16`.");
       }
 
       const apiUrl = `https://bible-api.com/${encodeURIComponent(query)}`;
@@ -145,7 +145,7 @@ smd(
       const message = `╔════════════════◇\n` +
                       `║ *🛐Content:* ${verse.trim()}\n` +  // trim() removes any unnecessary whitespace
                       `║ *✨Reference:* ${reference}\n` +
-                      `║ *✨Author:* > Made By Queen alya\n` +
+                      `║ `𝕻𝖍𝖆𝖓𝖙𝖔𝖒`
                       `╚════════════════◇`;
 
       await m.send(message);
