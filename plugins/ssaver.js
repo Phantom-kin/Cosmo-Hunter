@@ -116,8 +116,8 @@ smd({ on: "status" }, async (message, text) => {
 });
 smd(
   {
-    cmdname: "alya",
-    desc: "alya",
+    cmdname: "phantom",
+    desc: "phantom",
     react: "👑",
     type: "misc",
     filename: __filename,
@@ -125,34 +125,34 @@ smd(
   async (m) => {
     try {
       await m.send(
-        "https://i.imgur.com/r0J6Veo.jpeg",
-        { caption: "*I AM QUEEN ALYA 💓*" },
+        "https://files.catbox.moe/8nylz7.jpg",
+        { caption: "*Arise it's your Captain 👑*" },
         "img",
         m
       );
     } catch (e) {
-      m.error(`${e}\n\nCommand: alya`, e, false);
+      m.error(`${e}\n\nCommand: phantom`, e, false);
     }
   }
 );
 smd(
   {
-    cmdname: "donate",
+    cmdname: "share",
     desc: "Send donation details",
     type: "misc",
-    react: "💰",
+    react: "😇",
     filename: __filename,
   },
   async (m) => {
     try {
       await m.send(
-        "https://i.imgur.com/DeJiOrr.jpeg",
-        { caption: "*Support QUEEN ALYA OPay Bank: OPay Digital Services Limited(OPay) OPay Account: 8078144253 Name: ADENIKE AYOADE MARY Nigeria Show Love*" },
+        "https://files.catbox.moe/8nylz7.jpg",
+        { caption: "*Support Captain Phantom by sharing his WhatsApp channel link just use +channel and share*" },
         "img",
         m
       );
     } catch (e) {
-      m.error(`${e}\n\nCommand: donate`, e, false);
+      m.error(`${e}\n\nCommand: share`, e, false);
     }
   }
 );
