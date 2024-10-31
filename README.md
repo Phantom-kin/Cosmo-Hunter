@@ -22,7 +22,7 @@
 
 ***1.`First STAR 🌟 This Repo ` And Then [`FORK`](https://github.com/Phantom-kin/Cosmo-Hunter/fork) It***
 
-***2.`Get Session ID` by [`SCANING QR`](https://arthur-scanner.onrender.com/qr) Or [`PAIR CODE`](https://alya-pair.onrender.com/pair)***
+***2.`Get Session ID` by [`SCANING QR`](https://sess-id.onrender.com/wasiqr) Or [`PAIR CODE`](https://sess-id.onrender.com/pair)***
 
 * - Copy The Session ID for it Will be needed during deployment*
 
