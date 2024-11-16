@@ -1,19 +1,19 @@
 {
-   "name": "Queen_Alya",
+   "name": "Cosmo-Hunter",
    "version": "2.5.0",
-   "description": "Multi device whatsapp bot by STAR-KING0 ....",
+   "description": "Multi device whatsapp bot by Phantom-kin ....",
    "main": "index.js",
    "type": "commonjs",
    "scripts": {
-      "run": "pm2 start . --deep-monitoring --attach --name STAR-KING0 || node .",
-      "STAR-KING0 ": "pm2 start . --deep-monitoring --attach --name STAR-KING0 || node .",
-      "start": "pm2 start . --attach --name STAR-KING0",
-      "stop": "pm2 stop STAR-KING0",
-      "heroku-postbuild": "git clone https://github.com/STAR-KING0/Queen_Alya.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-      "fis-heroku-postbuild": "git clone https://github.com/STAR-KING0/Queen_Alya.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+      "run": "pm2 start . --deep-monitoring --attach --name Phantom-kin|| node .",
+      "STAR-KING0 ": "pm2 start . --deep-monitoring --attach --name Phantom-kin || node .",
+      "start": "pm2 start . --attach --name Phantom-kin",
+      "stop": "pm2 stop Phantom-kin",
+      "heroku-postbuild": "git clone https://github.com/Phantom-kin/Cosmo-Hunter.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "fis-heroku-postbuild": "git clone https://github.com/Phantom-kin/Cosmo-Hunter.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
-   "author": "STAR-KING0",
+   "author": "PHANTOM-KIN",
    "license": "Apache-2.0",
    "dependencies": {
       "alya": "npm:@distube/ytdl-core@latest",
@@ -77,10 +77,10 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/STAR-KING0/Queen_Alya.git"
+      "url": "git+https://github.com/Phantom-kin/Cosmo-Hunter.git"
    },
    "bugs": {
-      "url": "https://github.com/STAR-KING0/Queen_Alya/issues"
+      "url": "https://github.com/Phantom-kin/Cosmo-Hunter/issues"
    },
-   "homepage": "https://github.com/STAR-KING0/Queen_Alya#readme"
+   "homepage": "https://github.com/Phantom-kin/Cosmo-Hunter#readme"
 }
